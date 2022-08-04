@@ -6,7 +6,7 @@
 /*   By: mac <sorungta@42bangkok.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/02 14:15:57 by mac               #+#    #+#             */
-/*   Updated: 2022/08/02 14:26:56 by mac              ###   ########.fr       */
+/*   Updated: 2022/08/04 11:51:30 by mac              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,9 @@ void	ft_putstr(char *str)
 		++len;
 	write(1, str, len);
 }
-
+/*
 int	main(void)
 {
 	ft_putstr("love");
 	return (0);
-}
+}*/
